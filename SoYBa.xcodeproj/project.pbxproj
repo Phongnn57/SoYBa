@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4C80B881B95433E00468808 /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C80B871B95433E00468808 /* AlarmManager.swift */; };
+		A4C80B8A1B9557D200468808 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C80B891B9557D200468808 /* CoreImage.framework */; };
+		A4C80B8E1B95881000468808 /* TopScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C80B8D1B95881000468808 /* TopScrollView.swift */; };
+		A4CAA2571B94C85A00E424AB /* VaccineSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CAA2551B94C85A00E424AB /* VaccineSelectionViewController.swift */; };
+		A4CAA2581B94C85A00E424AB /* VaccineSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4CAA2561B94C85A00E424AB /* VaccineSelectionViewController.xib */; };
+		A4CAA25C1B94C8B800E424AB /* VaccineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CAA25A1B94C8B800E424AB /* VaccineCell.swift */; };
+		A4CAA25D1B94C8B800E424AB /* VaccineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4CAA25B1B94C8B800E424AB /* VaccineCell.xib */; };
+		A4CAA2621B94DCD000E424AB /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CAA2601B94DCD000E424AB /* AppInfoViewController.swift */; };
+		A4CAA2631B94DCD000E424AB /* AppInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4CAA2611B94DCD000E424AB /* AppInfoViewController.xib */; };
+		A4CAA2671B94DF4400E424AB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CAA2651B94DF4400E424AB /* SettingViewController.swift */; };
+		A4CAA2681B94DF4400E424AB /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4CAA2661B94DF4400E424AB /* SettingViewController.xib */; };
+		A4D2F3E91B9AA88A00CFBAD6 /* CustomPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F3E61B9AA88A00CFBAD6 /* CustomPopupView.swift */; };
+		A4D2F3EA1B9AA88A00CFBAD6 /* EnbacAlertPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F3E71B9AA88A00CFBAD6 /* EnbacAlertPopup.swift */; };
+		A4D2F3EB1B9AA88A00CFBAD6 /* EnbacAlertPopupContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F3E81B9AA88A00CFBAD6 /* EnbacAlertPopupContentView.swift */; };
+		A4D2F3EF1B9AAFE000CFBAD6 /* EditInjectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F3ED1B9AAFE000CFBAD6 /* EditInjectionViewController.swift */; };
+		A4D2F3F01B9AAFE000CFBAD6 /* EditInjectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D2F3EE1B9AAFE000CFBAD6 /* EditInjectionViewController.xib */; };
+		A4D8E1DA1B92A6C0007EE420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E1D91B92A6C0007EE420 /* AppDelegate.swift */; };
+		A4D8E1DC1B92A6C0007EE420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E1DB1B92A6C0007EE420 /* ViewController.swift */; };
+		A4D8E1DF1B92A6C0007EE420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E1DD1B92A6C0007EE420 /* Main.storyboard */; };
+		A4D8E1E11B92A6C0007EE420 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E1E01B92A6C0007EE420 /* Images.xcassets */; };
+		A4D8E1E41B92A6C0007EE420 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E1E21B92A6C0007EE420 /* LaunchScreen.xib */; };
+		A4D8E2071B92A9B8007EE420 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2051B92A9B8007EE420 /* LoginViewController.swift */; };
+		A4D8E2081B92A9B8007EE420 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E2061B92A9B8007EE420 /* LoginViewController.xib */; };
+		A4D8E20B1B92A9DB007EE420 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E20A1B92A9DB007EE420 /* BaseViewController.swift */; };
+		A4D8E20F1B92A9FF007EE420 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E20D1B92A9FF007EE420 /* MenuViewController.swift */; };
+		A4D8E2101B92A9FF007EE420 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E20E1B92A9FF007EE420 /* MenuViewController.xib */; };
+		A4D8E21B1B92AEA0007EE420 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2121B92AEA0007EE420 /* ArrayExtension.swift */; };
+		A4D8E21C1B92AEA0007EE420 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2131B92AEA0007EE420 /* NSDateExtension.swift */; };
+		A4D8E21D1B92AEA0007EE420 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2141B92AEA0007EE420 /* StringExtension.swift */; };
+		A4D8E21E1B92AEA0007EE420 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2151B92AEA0007EE420 /* UIButtonExtension.swift */; };
+		A4D8E21F1B92AEA0007EE420 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2161B92AEA0007EE420 /* UIColorExtension.swift */; };
+		A4D8E2201B92AEA0007EE420 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2171B92AEA0007EE420 /* UIImageExtension.swift */; };
+		A4D8E2211B92AEA0007EE420 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2181B92AEA0007EE420 /* UITextFieldExtension.swift */; };
+		A4D8E2221B92AEA0007EE420 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2191B92AEA0007EE420 /* UITextViewExtension.swift */; };
+		A4D8E2231B92AEA0007EE420 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E21A1B92AEA0007EE420 /* UIViewExtension.swift */; };
+		A4D8E2281B92AFD8007EE420 /* SoYBa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2261B92AFD8007EE420 /* SoYBa.xcdatamodeld */; };
+		A4D8E22A1B92B24F007EE420 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2291B92B24F007EE420 /* Patient.swift */; };
+		A4D8E22C1B92B250007EE420 /* Patient_Sick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E22B1B92B250007EE420 /* Patient_Sick.swift */; };
+		A4D8E22E1B92B250007EE420 /* Injection_Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E22D1B92B250007EE420 /* Injection_Schedule.swift */; };
+		A4D8E2301B92B250007EE420 /* Patient_Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E22F1B92B250007EE420 /* Patient_Injection.swift */; };
+		A4D8E2321B92B250007EE420 /* Sick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2311B92B250007EE420 /* Sick.swift */; };
+		A4D8E2341B92B251007EE420 /* Sick_Vac.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2331B92B251007EE420 /* Sick_Vac.swift */; };
+		A4D8E2361B92B251007EE420 /* Clinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2351B92B251007EE420 /* Clinic.swift */; };
+		A4D8E23A1B92B2CF007EE420 /* Clinic.csv in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E2371B92B2CF007EE420 /* Clinic.csv */; };
+		A4D8E23B1B92B2CF007EE420 /* Injection_Schedule.csv in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E2381B92B2CF007EE420 /* Injection_Schedule.csv */; };
+		A4D8E23C1B92B2CF007EE420 /* Sick.csv in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E2391B92B2CF007EE420 /* Sick.csv */; };
+		A4D8E23F1B92B319007EE420 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E23E1B92B319007EE420 /* UserObject.swift */; };
+		A4D8E2421B92B347007EE420 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2411B92B347007EE420 /* AppConstant.swift */; };
+		A4D8E2441B92B38B007EE420 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2431B92B38B007EE420 /* DataManager.swift */; };
+		A4D8E2471B92B517007EE420 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2461B92B517007EE420 /* ModelManager.swift */; };
+		A4D8E2491B92B52F007EE420 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2481B92B52F007EE420 /* Utilities.swift */; };
+		A4D8E24B1B92B554007EE420 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E24A1B92B554007EE420 /* UserAPI.swift */; };
+		A4D8E24F1B92B8FF007EE420 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E24D1B92B8FF007EE420 /* MenuCell.swift */; };
+		A4D8E2501B92B8FF007EE420 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E24E1B92B8FF007EE420 /* MenuCell.xib */; };
+		A4D8E2541B92BB38007EE420 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2521B92BB38007EE420 /* HomeViewController.swift */; };
+		A4D8E2551B92BB38007EE420 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E2531B92BB38007EE420 /* HomeViewController.xib */; };
+		A4D8E2591B92BB59007EE420 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2571B92BB59007EE420 /* PatientViewController.swift */; };
+		A4D8E25A1B92BB59007EE420 /* PatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E2581B92BB59007EE420 /* PatientViewController.xib */; };
+		A4D8E25E1B92BB8B007EE420 /* ClinicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E25C1B92BB8B007EE420 /* ClinicViewController.swift */; };
+		A4D8E25F1B92BB8B007EE420 /* ClinicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E25D1B92BB8B007EE420 /* ClinicViewController.xib */; };
+		A4D8E2631B92C212007EE420 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2611B92C212007EE420 /* SummaryCell.swift */; };
+		A4D8E2641B92C212007EE420 /* SummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E2621B92C212007EE420 /* SummaryCell.xib */; };
+		A4D8E2671B92C231007EE420 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2651B92C231007EE420 /* DetailCell.swift */; };
+		A4D8E2681B92C231007EE420 /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E2661B92C231007EE420 /* DetailCell.xib */; };
+		A4D8E26B1B92C24D007EE420 /* InjectionScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2691B92C24D007EE420 /* InjectionScheduleCell.swift */; };
+		A4D8E26C1B92C24D007EE420 /* InjectionScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E26A1B92C24D007EE420 /* InjectionScheduleCell.xib */; };
+		A4D8E2701B92D4D5007EE420 /* AddPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E26E1B92D4D5007EE420 /* AddPatientViewController.swift */; };
+		A4D8E2711B92D4D5007EE420 /* AddPatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E26F1B92D4D5007EE420 /* AddPatientViewController.xib */; };
+		A4D8E2741B92E0D0007EE420 /* SevenSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2731B92E0D0007EE420 /* SevenSwitch.swift */; };
+		A4D8E2761B92E0F5007EE420 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D8E2751B92E0F5007EE420 /* QuartzCore.framework */; };
+		A4D8E27A1B92EE67007EE420 /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E2781B92EE67007EE420 /* PatientCell.swift */; };
+		A4D8E27B1B92EE67007EE420 /* PatientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E2791B92EE67007EE420 /* PatientCell.xib */; };
+		A4D8E27D1B92FBD5007EE420 /* PatientAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E27C1B92FBD5007EE420 /* PatientAPI.swift */; };
+		A4D8E27F1B93018E007EE420 /* SickAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E27E1B93018E007EE420 /* SickAPI.swift */; };
+		A4D9E7601B93E84600628AEA /* SkyDanceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E75F1B93E84600628AEA /* SkyDanceAnnotation.swift */; };
+		A4D9E7621B93EA1A00628AEA /* SkyDanceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E7611B93EA1A00628AEA /* SkyDanceAnnotationView.swift */; };
+		A4D9E7661B93F29F00628AEA /* DrugStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E7641B93F29F00628AEA /* DrugStoreViewController.swift */; };
+		A4D9E7671B93F29F00628AEA /* DrugStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D9E7651B93F29F00628AEA /* DrugStoreViewController.xib */; };
+		A4D9E7691B93F3E500628AEA /* ClinicAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E7681B93F3E500628AEA /* ClinicAPI.swift */; };
+		A4DAAC091B934E3B00E2A077 /* ClinicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DAAC071B934E3B00E2A077 /* ClinicCell.swift */; };
+		A4DAAC0A1B934E3B00E2A077 /* ClinicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4DAAC081B934E3B00E2A077 /* ClinicCell.xib */; };
+		A4DAAC0E1B93507000E2A077 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DAAC0C1B93507000E2A077 /* MapViewController.swift */; };
+		A4DAAC0F1B93507000E2A077 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4DAAC0D1B93507000E2A077 /* MapViewController.xib */; };
+		A4DAAC111B9350B200E2A077 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DAAC101B9350B200E2A077 /* MapKit.framework */; };
+		A4EE28F71B9BD14000972FF5 /* SwitchPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE28F51B9BD14000972FF5 /* SwitchPatientViewController.swift */; };
+		A4EE28F81B9BD14000972FF5 /* SwitchPatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4EE28F61B9BD14000972FF5 /* SwitchPatientViewController.xib */; };
+		EF686C37895FC6DEC240C34A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F5F4D78585BC560FE3E3A3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33F5F4D78585BC560FE3E3A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C80B871B95433E00468808 /* AlarmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
+		A4C80B891B9557D200468808 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A4C80B8D1B95881000468808 /* TopScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopScrollView.swift; sourceTree = "<group>"; };
+		A4CAA2551B94C85A00E424AB /* VaccineSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaccineSelectionViewController.swift; sourceTree = "<group>"; };
+		A4CAA2561B94C85A00E424AB /* VaccineSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VaccineSelectionViewController.xib; sourceTree = "<group>"; };
+		A4CAA25A1B94C8B800E424AB /* VaccineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaccineCell.swift; sourceTree = "<group>"; };
+		A4CAA25B1B94C8B800E424AB /* VaccineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VaccineCell.xib; sourceTree = "<group>"; };
+		A4CAA2601B94DCD000E424AB /* AppInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfoViewController.swift; sourceTree = "<group>"; };
+		A4CAA2611B94DCD000E424AB /* AppInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppInfoViewController.xib; sourceTree = "<group>"; };
+		A4CAA2651B94DF4400E424AB /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A4CAA2661B94DF4400E424AB /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		A4D2F3E61B9AA88A00CFBAD6 /* CustomPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPopupView.swift; sourceTree = "<group>"; };
+		A4D2F3E71B9AA88A00CFBAD6 /* EnbacAlertPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnbacAlertPopup.swift; sourceTree = "<group>"; };
+		A4D2F3E81B9AA88A00CFBAD6 /* EnbacAlertPopupContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnbacAlertPopupContentView.swift; sourceTree = "<group>"; };
+		A4D2F3ED1B9AAFE000CFBAD6 /* EditInjectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditInjectionViewController.swift; sourceTree = "<group>"; };
+		A4D2F3EE1B9AAFE000CFBAD6 /* EditInjectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditInjectionViewController.xib; sourceTree = "<group>"; };
+		A4D8E1D41B92A6C0007EE420 /* SoYBa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoYBa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D8E1D81B92A6C0007EE420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D8E1D91B92A6C0007EE420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4D8E1DB1B92A6C0007EE420 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4D8E1DE1B92A6C0007EE420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4D8E1E01B92A6C0007EE420 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4D8E1E31B92A6C0007EE420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A4D8E1EE1B92A6C0007EE420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D8E1EF1B92A6C0007EE420 /* SoYBaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoYBaTests.swift; sourceTree = "<group>"; };
+		A4D8E1F91B92A774007EE420 /* SoYBa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoYBa-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4D8E2051B92A9B8007EE420 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A4D8E2061B92A9B8007EE420 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		A4D8E20A1B92A9DB007EE420 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A4D8E20D1B92A9FF007EE420 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A4D8E20E1B92A9FF007EE420 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		A4D8E2121B92AEA0007EE420 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		A4D8E2131B92AEA0007EE420 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
+		A4D8E2141B92AEA0007EE420 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A4D8E2151B92AEA0007EE420 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		A4D8E2161B92AEA0007EE420 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		A4D8E2171B92AEA0007EE420 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		A4D8E2181B92AEA0007EE420 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		A4D8E2191B92AEA0007EE420 /* UITextViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		A4D8E21A1B92AEA0007EE420 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A4D8E2271B92AFD8007EE420 /* SoYBa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoYBa.xcdatamodel; sourceTree = "<group>"; };
+		A4D8E2291B92B24F007EE420 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		A4D8E22B1B92B250007EE420 /* Patient_Sick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient_Sick.swift; sourceTree = "<group>"; };
+		A4D8E22D1B92B250007EE420 /* Injection_Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injection_Schedule.swift; sourceTree = "<group>"; };
+		A4D8E22F1B92B250007EE420 /* Patient_Injection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient_Injection.swift; sourceTree = "<group>"; };
+		A4D8E2311B92B250007EE420 /* Sick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sick.swift; sourceTree = "<group>"; };
+		A4D8E2331B92B251007EE420 /* Sick_Vac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sick_Vac.swift; sourceTree = "<group>"; };
+		A4D8E2351B92B251007EE420 /* Clinic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clinic.swift; sourceTree = "<group>"; };
+		A4D8E2371B92B2CF007EE420 /* Clinic.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Clinic.csv; sourceTree = "<group>"; };
+		A4D8E2381B92B2CF007EE420 /* Injection_Schedule.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Injection_Schedule.csv; sourceTree = "<group>"; };
+		A4D8E2391B92B2CF007EE420 /* Sick.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sick.csv; sourceTree = "<group>"; };
+		A4D8E23E1B92B319007EE420 /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		A4D8E2411B92B347007EE420 /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		A4D8E2431B92B38B007EE420 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A4D8E2461B92B517007EE420 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		A4D8E2481B92B52F007EE420 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A4D8E24A1B92B554007EE420 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		A4D8E24D1B92B8FF007EE420 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		A4D8E24E1B92B8FF007EE420 /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		A4D8E2521B92BB38007EE420 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4D8E2531B92BB38007EE420 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A4D8E2571B92BB59007EE420 /* PatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		A4D8E2581B92BB59007EE420 /* PatientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientViewController.xib; sourceTree = "<group>"; };
+		A4D8E25C1B92BB8B007EE420 /* ClinicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicViewController.swift; sourceTree = "<group>"; };
+		A4D8E25D1B92BB8B007EE420 /* ClinicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClinicViewController.xib; sourceTree = "<group>"; };
+		A4D8E2611B92C212007EE420 /* SummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummaryCell.swift; path = "SoYBa/View Controllers/Home View Controller/Cells/SummaryCell.swift"; sourceTree = SOURCE_ROOT; };
+		A4D8E2621B92C212007EE420 /* SummaryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SummaryCell.xib; path = "SoYBa/View Controllers/Home View Controller/Cells/SummaryCell.xib"; sourceTree = SOURCE_ROOT; };
+		A4D8E2651B92C231007EE420 /* DetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		A4D8E2661B92C231007EE420 /* DetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
+		A4D8E2691B92C24D007EE420 /* InjectionScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectionScheduleCell.swift; sourceTree = "<group>"; };
+		A4D8E26A1B92C24D007EE420 /* InjectionScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InjectionScheduleCell.xib; sourceTree = "<group>"; };
+		A4D8E26E1B92D4D5007EE420 /* AddPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientViewController.swift; sourceTree = "<group>"; };
+		A4D8E26F1B92D4D5007EE420 /* AddPatientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPatientViewController.xib; sourceTree = "<group>"; };
+		A4D8E2731B92E0D0007EE420 /* SevenSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenSwitch.swift; sourceTree = "<group>"; };
+		A4D8E2751B92E0F5007EE420 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4D8E2781B92EE67007EE420 /* PatientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientCell.swift; sourceTree = "<group>"; };
+		A4D8E2791B92EE67007EE420 /* PatientCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientCell.xib; sourceTree = "<group>"; };
+		A4D8E27C1B92FBD5007EE420 /* PatientAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientAPI.swift; sourceTree = "<group>"; };
+		A4D8E27E1B93018E007EE420 /* SickAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SickAPI.swift; sourceTree = "<group>"; };
+		A4D9E75F1B93E84600628AEA /* SkyDanceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyDanceAnnotation.swift; sourceTree = "<group>"; };
+		A4D9E7611B93EA1A00628AEA /* SkyDanceAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyDanceAnnotationView.swift; sourceTree = "<group>"; };
+		A4D9E7641B93F29F00628AEA /* DrugStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugStoreViewController.swift; sourceTree = "<group>"; };
+		A4D9E7651B93F29F00628AEA /* DrugStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrugStoreViewController.xib; sourceTree = "<group>"; };
+		A4D9E7681B93F3E500628AEA /* ClinicAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicAPI.swift; sourceTree = "<group>"; };
+		A4DAAC071B934E3B00E2A077 /* ClinicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicCell.swift; sourceTree = "<group>"; };
+		A4DAAC081B934E3B00E2A077 /* ClinicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClinicCell.xib; sourceTree = "<group>"; };
+		A4DAAC0C1B93507000E2A077 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A4DAAC0D1B93507000E2A077 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		A4DAAC101B9350B200E2A077 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A4EE28F51B9BD14000972FF5 /* SwitchPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchPatientViewController.swift; sourceTree = "<group>"; };
+		A4EE28F61B9BD14000972FF5 /* SwitchPatientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchPatientViewController.xib; sourceTree = "<group>"; };
+		D3FE00C560783FCD85165225 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FD66DA118B7D63B0A21E74CB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D8E1D11B92A6C0007EE420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C80B8A1B9557D200468808 /* CoreImage.framework in Frameworks */,
+				A4DAAC111B9350B200E2A077 /* MapKit.framework in Frameworks */,
+				A4D8E2761B92E0F5007EE420 /* QuartzCore.framework in Frameworks */,
+				EF686C37895FC6DEC240C34A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18116C5E7FD69D7362179A4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD66DA118B7D63B0A21E74CB /* Pods.debug.xcconfig */,
+				D3FE00C560783FCD85165225 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4CAA2531B94C83E00E424AB /* Other View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4CAA2541B94C84900E424AB /* Vaccine View Controller */,
+			);
+			path = "Other View Controllers";
+			sourceTree = "<group>";
+		};
+		A4CAA2541B94C84900E424AB /* Vaccine View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4CAA2591B94C8A600E424AB /* Cell */,
+				A4CAA2551B94C85A00E424AB /* VaccineSelectionViewController.swift */,
+				A4CAA2561B94C85A00E424AB /* VaccineSelectionViewController.xib */,
+			);
+			path = "Vaccine View Controller";
+			sourceTree = "<group>";
+		};
+		A4CAA2591B94C8A600E424AB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A4CAA25A1B94C8B800E424AB /* VaccineCell.swift */,
+				A4CAA25B1B94C8B800E424AB /* VaccineCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A4CAA25E1B94DCB000E424AB /* System & Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A4CAA2641B94DF3900E424AB /* App Setting View Controller */,
+				A4CAA25F1B94DCC200E424AB /* App Info View Controller */,
+			);
+			path = "System & Setting";
+			sourceTree = "<group>";
+		};
+		A4CAA25F1B94DCC200E424AB /* App Info View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4CAA2601B94DCD000E424AB /* AppInfoViewController.swift */,
+				A4CAA2611B94DCD000E424AB /* AppInfoViewController.xib */,
+			);
+			path = "App Info View Controller";
+			sourceTree = "<group>";
+		};
+		A4CAA2641B94DF3900E424AB /* App Setting View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4CAA2651B94DF4400E424AB /* SettingViewController.swift */,
+				A4CAA2661B94DF4400E424AB /* SettingViewController.xib */,
+			);
+			path = "App Setting View Controller";
+			sourceTree = "<group>";
+		};
+		A4D2F3EC1B9AAFD200CFBAD6 /* Edit Injection */ = {
+			isa = PBXGroup;
+			children = (
+				A4D2F3ED1B9AAFE000CFBAD6 /* EditInjectionViewController.swift */,
+				A4D2F3EE1B9AAFE000CFBAD6 /* EditInjectionViewController.xib */,
+			);
+			path = "Edit Injection";
+			sourceTree = "<group>";
+		};
+		A4D8E1CB1B92A6C0007EE420 = {
+			isa = PBXGroup;
+			children = (
+				A4D8E1D61B92A6C0007EE420 /* SoYBa */,
+				A4D8E1EC1B92A6C0007EE420 /* SoYBaTests */,
+				A4D8E1D51B92A6C0007EE420 /* Products */,
+				18116C5E7FD69D7362179A4E /* Pods */,
+				F186BA453C65822F082D71E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D8E1D51B92A6C0007EE420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E1D41B92A6C0007EE420 /* SoYBa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D8E1D61B92A6C0007EE420 /* SoYBa */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2721B92E0C6007EE420 /* Customizes */,
+				A4D8E2401B92B33E007EE420 /* Commons */,
+				A4D8E2241B92AFBE007EE420 /* Models  */,
+				A4D8E2111B92AE85007EE420 /* Extensions */,
+				A4D8E2031B92A99F007EE420 /* View Controllers */,
+				A4D8E1D91B92A6C0007EE420 /* AppDelegate.swift */,
+				A4D8E1DB1B92A6C0007EE420 /* ViewController.swift */,
+				A4D8E1DD1B92A6C0007EE420 /* Main.storyboard */,
+				A4D8E1E01B92A6C0007EE420 /* Images.xcassets */,
+				A4D8E1E21B92A6C0007EE420 /* LaunchScreen.xib */,
+				A4D8E1D71B92A6C0007EE420 /* Supporting Files */,
+				A4D8E1F91B92A774007EE420 /* SoYBa-Bridging-Header.h */,
+			);
+			path = SoYBa;
+			sourceTree = "<group>";
+		};
+		A4D8E1D71B92A6C0007EE420 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E1D81B92A6C0007EE420 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4D8E1EC1B92A6C0007EE420 /* SoYBaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E1EF1B92A6C0007EE420 /* SoYBaTests.swift */,
+				A4D8E1ED1B92A6C0007EE420 /* Supporting Files */,
+			);
+			path = SoYBaTests;
+			sourceTree = "<group>";
+		};
+		A4D8E1ED1B92A6C0007EE420 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E1EE1B92A6C0007EE420 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4D8E2031B92A99F007EE420 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4CAA25E1B94DCB000E424AB /* System & Setting */,
+				A4CAA2531B94C83E00E424AB /* Other View Controllers */,
+				A4D8E25B1B92BB81007EE420 /* Clinic View Controller */,
+				A4D8E2561B92BB4B007EE420 /* Patient View Controller */,
+				A4D8E2511B92BB29007EE420 /* Home View Controller */,
+				A4D8E20C1B92A9F3007EE420 /* Menu Controller */,
+				A4D8E2091B92A9D2007EE420 /* Base View Controller */,
+				A4D8E2041B92A9AB007EE420 /* Login View Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A4D8E2041B92A9AB007EE420 /* Login View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2051B92A9B8007EE420 /* LoginViewController.swift */,
+				A4D8E2061B92A9B8007EE420 /* LoginViewController.xib */,
+			);
+			path = "Login View Controller";
+			sourceTree = "<group>";
+		};
+		A4D8E2091B92A9D2007EE420 /* Base View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E20A1B92A9DB007EE420 /* BaseViewController.swift */,
+			);
+			path = "Base View Controller";
+			sourceTree = "<group>";
+		};
+		A4D8E20C1B92A9F3007EE420 /* Menu Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E24C1B92B8EE007EE420 /* Cell */,
+				A4D8E20D1B92A9FF007EE420 /* MenuViewController.swift */,
+				A4D8E20E1B92A9FF007EE420 /* MenuViewController.xib */,
+			);
+			path = "Menu Controller";
+			sourceTree = "<group>";
+		};
+		A4D8E2111B92AE85007EE420 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2121B92AEA0007EE420 /* ArrayExtension.swift */,
+				A4D8E2131B92AEA0007EE420 /* NSDateExtension.swift */,
+				A4D8E2141B92AEA0007EE420 /* StringExtension.swift */,
+				A4D8E2151B92AEA0007EE420 /* UIButtonExtension.swift */,
+				A4D8E2161B92AEA0007EE420 /* UIColorExtension.swift */,
+				A4D8E2171B92AEA0007EE420 /* UIImageExtension.swift */,
+				A4D8E2181B92AEA0007EE420 /* UITextFieldExtension.swift */,
+				A4D8E2191B92AEA0007EE420 /* UITextViewExtension.swift */,
+				A4D8E21A1B92AEA0007EE420 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A4D8E2241B92AFBE007EE420 /* Models  */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2451B92B4FE007EE420 /* APIs */,
+				A4D8E23D1B92B30A007EE420 /* Object */,
+				A4D8E2251B92AFCC007EE420 /* Entities  */,
+			);
+			path = "Models ";
+			sourceTree = "<group>";
+		};
+		A4D8E2251B92AFCC007EE420 /* Entities  */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2371B92B2CF007EE420 /* Clinic.csv */,
+				A4D8E2381B92B2CF007EE420 /* Injection_Schedule.csv */,
+				A4D8E2391B92B2CF007EE420 /* Sick.csv */,
+				A4D8E2261B92AFD8007EE420 /* SoYBa.xcdatamodeld */,
+				A4D8E2351B92B251007EE420 /* Clinic.swift */,
+				A4D8E2331B92B251007EE420 /* Sick_Vac.swift */,
+				A4D8E2311B92B250007EE420 /* Sick.swift */,
+				A4D8E22F1B92B250007EE420 /* Patient_Injection.swift */,
+				A4D8E22D1B92B250007EE420 /* Injection_Schedule.swift */,
+				A4D8E22B1B92B250007EE420 /* Patient_Sick.swift */,
+				A4D8E2291B92B24F007EE420 /* Patient.swift */,
+			);
+			path = "Entities ";
+			sourceTree = "<group>";
+		};
+		A4D8E23D1B92B30A007EE420 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E23E1B92B319007EE420 /* UserObject.swift */,
+				A4D8E2431B92B38B007EE420 /* DataManager.swift */,
+				A4C80B871B95433E00468808 /* AlarmManager.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		A4D8E2401B92B33E007EE420 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2411B92B347007EE420 /* AppConstant.swift */,
+				A4D8E2481B92B52F007EE420 /* Utilities.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		A4D8E2451B92B4FE007EE420 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2461B92B517007EE420 /* ModelManager.swift */,
+				A4D8E24A1B92B554007EE420 /* UserAPI.swift */,
+				A4D8E27C1B92FBD5007EE420 /* PatientAPI.swift */,
+				A4D8E27E1B93018E007EE420 /* SickAPI.swift */,
+				A4D9E7681B93F3E500628AEA /* ClinicAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		A4D8E24C1B92B8EE007EE420 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E24D1B92B8FF007EE420 /* MenuCell.swift */,
+				A4D8E24E1B92B8FF007EE420 /* MenuCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A4D8E2511B92BB29007EE420 /* Home View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE28F41B9BD13200972FF5 /* Switch Patient View Controller */,
+				A4D2F3EC1B9AAFD200CFBAD6 /* Edit Injection */,
+				A4D8E2601B92C1E8007EE420 /* Cells */,
+				A4D8E2521B92BB38007EE420 /* HomeViewController.swift */,
+				A4D8E2531B92BB38007EE420 /* HomeViewController.xib */,
+			);
+			path = "Home View Controller";
+			sourceTree = "<group>";
+		};
+		A4D8E2561B92BB4B007EE420 /* Patient View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2771B92EE53007EE420 /* Cell */,
+				A4D8E26D1B92D4C0007EE420 /* Add & Edit Patient View Controller */,
+				A4D8E2571B92BB59007EE420 /* PatientViewController.swift */,
+				A4D8E2581B92BB59007EE420 /* PatientViewController.xib */,
+			);
+			path = "Patient View Controller";
+			sourceTree = "<group>";
+		};
+		A4D8E25B1B92BB81007EE420 /* Clinic View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D9E7631B93F28600628AEA /* Drug Store View Controller */,
+				A4DAAC0B1B93506100E2A077 /* Map View Controller */,
+				A4DAAC061B934E2900E2A077 /* Cell */,
+				A4D8E25C1B92BB8B007EE420 /* ClinicViewController.swift */,
+				A4D8E25D1B92BB8B007EE420 /* ClinicViewController.xib */,
+			);
+			path = "Clinic View Controller";
+			sourceTree = "<group>";
+		};
+		A4D8E2601B92C1E8007EE420 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2611B92C212007EE420 /* SummaryCell.swift */,
+				A4D8E2621B92C212007EE420 /* SummaryCell.xib */,
+				A4D8E2651B92C231007EE420 /* DetailCell.swift */,
+				A4D8E2661B92C231007EE420 /* DetailCell.xib */,
+				A4D8E2691B92C24D007EE420 /* InjectionScheduleCell.swift */,
+				A4D8E26A1B92C24D007EE420 /* InjectionScheduleCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A4D8E26D1B92D4C0007EE420 /* Add & Edit Patient View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E26E1B92D4D5007EE420 /* AddPatientViewController.swift */,
+				A4D8E26F1B92D4D5007EE420 /* AddPatientViewController.xib */,
+			);
+			path = "Add & Edit Patient View Controller";
+			sourceTree = "<group>";
+		};
+		A4D8E2721B92E0C6007EE420 /* Customizes */ = {
+			isa = PBXGroup;
+			children = (
+				A4D2F3E61B9AA88A00CFBAD6 /* CustomPopupView.swift */,
+				A4D2F3E71B9AA88A00CFBAD6 /* EnbacAlertPopup.swift */,
+				A4D2F3E81B9AA88A00CFBAD6 /* EnbacAlertPopupContentView.swift */,
+				A4C80B8D1B95881000468808 /* TopScrollView.swift */,
+				A4D8E2731B92E0D0007EE420 /* SevenSwitch.swift */,
+			);
+			path = Customizes;
+			sourceTree = "<group>";
+		};
+		A4D8E2771B92EE53007EE420 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E2781B92EE67007EE420 /* PatientCell.swift */,
+				A4D8E2791B92EE67007EE420 /* PatientCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A4D9E7631B93F28600628AEA /* Drug Store View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D9E7641B93F29F00628AEA /* DrugStoreViewController.swift */,
+				A4D9E7651B93F29F00628AEA /* DrugStoreViewController.xib */,
+			);
+			path = "Drug Store View Controller";
+			sourceTree = "<group>";
+		};
+		A4DAAC061B934E2900E2A077 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A4DAAC071B934E3B00E2A077 /* ClinicCell.swift */,
+				A4DAAC081B934E3B00E2A077 /* ClinicCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A4DAAC0B1B93506100E2A077 /* Map View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4DAAC0C1B93507000E2A077 /* MapViewController.swift */,
+				A4DAAC0D1B93507000E2A077 /* MapViewController.xib */,
+				A4D9E75F1B93E84600628AEA /* SkyDanceAnnotation.swift */,
+				A4D9E7611B93EA1A00628AEA /* SkyDanceAnnotationView.swift */,
+			);
+			path = "Map View Controller";
+			sourceTree = "<group>";
+		};
+		A4EE28F41B9BD13200972FF5 /* Switch Patient View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE28F51B9BD14000972FF5 /* SwitchPatientViewController.swift */,
+				A4EE28F61B9BD14000972FF5 /* SwitchPatientViewController.xib */,
+			);
+			path = "Switch Patient View Controller";
+			sourceTree = "<group>";
+		};
+		F186BA453C65822F082D71E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4C80B891B9557D200468808 /* CoreImage.framework */,
+				A4DAAC101B9350B200E2A077 /* MapKit.framework */,
+				A4D8E2751B92E0F5007EE420 /* QuartzCore.framework */,
+				33F5F4D78585BC560FE3E3A3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D8E1D31B92A6C0007EE420 /* SoYBa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D8E1F31B92A6C0007EE420 /* Build configuration list for PBXNativeTarget "SoYBa" */;
+			buildPhases = (
+				B3644AA71E673ECF27960C7E /* Check Pods Manifest.lock */,
+				A4D8E1D01B92A6C0007EE420 /* Sources */,
+				A4D8E1D11B92A6C0007EE420 /* Frameworks */,
+				A4D8E1D21B92A6C0007EE420 /* Resources */,
+				4DC93D7A759BE9720825B55F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoYBa;
+			productName = SoYBa;
+			productReference = A4D8E1D41B92A6C0007EE420 /* SoYBa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D8E1CC1B92A6C0007EE420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SkyDance;
+				TargetAttributes = {
+					A4D8E1D31B92A6C0007EE420 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3SD7U8523L;
+					};
+				};
+			};
+			buildConfigurationList = A4D8E1CF1B92A6C0007EE420 /* Build configuration list for PBXProject "SoYBa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D8E1CB1B92A6C0007EE420;
+			productRefGroup = A4D8E1D51B92A6C0007EE420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D8E1D31B92A6C0007EE420 /* SoYBa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D8E1D21B92A6C0007EE420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D2F3F01B9AAFE000CFBAD6 /* EditInjectionViewController.xib in Resources */,
+				A4D8E25A1B92BB59007EE420 /* PatientViewController.xib in Resources */,
+				A4D8E2641B92C212007EE420 /* SummaryCell.xib in Resources */,
+				A4D8E2081B92A9B8007EE420 /* LoginViewController.xib in Resources */,
+				A4CAA2631B94DCD000E424AB /* AppInfoViewController.xib in Resources */,
+				A4CAA25D1B94C8B800E424AB /* VaccineCell.xib in Resources */,
+				A4D8E25F1B92BB8B007EE420 /* ClinicViewController.xib in Resources */,
+				A4D8E2681B92C231007EE420 /* DetailCell.xib in Resources */,
+				A4EE28F81B9BD14000972FF5 /* SwitchPatientViewController.xib in Resources */,
+				A4CAA2681B94DF4400E424AB /* SettingViewController.xib in Resources */,
+				A4D8E1DF1B92A6C0007EE420 /* Main.storyboard in Resources */,
+				A4DAAC0F1B93507000E2A077 /* MapViewController.xib in Resources */,
+				A4D8E23A1B92B2CF007EE420 /* Clinic.csv in Resources */,
+				A4D8E2501B92B8FF007EE420 /* MenuCell.xib in Resources */,
+				A4D8E23B1B92B2CF007EE420 /* Injection_Schedule.csv in Resources */,
+				A4DAAC0A1B934E3B00E2A077 /* ClinicCell.xib in Resources */,
+				A4CAA2581B94C85A00E424AB /* VaccineSelectionViewController.xib in Resources */,
+				A4D8E23C1B92B2CF007EE420 /* Sick.csv in Resources */,
+				A4D8E2711B92D4D5007EE420 /* AddPatientViewController.xib in Resources */,
+				A4D8E2101B92A9FF007EE420 /* MenuViewController.xib in Resources */,
+				A4D8E2551B92BB38007EE420 /* HomeViewController.xib in Resources */,
+				A4D8E1E41B92A6C0007EE420 /* LaunchScreen.xib in Resources */,
+				A4D8E27B1B92EE67007EE420 /* PatientCell.xib in Resources */,
+				A4D8E1E11B92A6C0007EE420 /* Images.xcassets in Resources */,
+				A4D9E7671B93F29F00628AEA /* DrugStoreViewController.xib in Resources */,
+				A4D8E26C1B92C24D007EE420 /* InjectionScheduleCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DC93D7A759BE9720825B55F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3644AA71E673ECF27960C7E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D8E1D01B92A6C0007EE420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D8E2301B92B250007EE420 /* Patient_Injection.swift in Sources */,
+				A4D8E24F1B92B8FF007EE420 /* MenuCell.swift in Sources */,
+				A4D8E2591B92BB59007EE420 /* PatientViewController.swift in Sources */,
+				A4D8E2071B92A9B8007EE420 /* LoginViewController.swift in Sources */,
+				A4D8E2631B92C212007EE420 /* SummaryCell.swift in Sources */,
+				A4CAA25C1B94C8B800E424AB /* VaccineCell.swift in Sources */,
+				A4D8E2211B92AEA0007EE420 /* UITextFieldExtension.swift in Sources */,
+				A4D8E2701B92D4D5007EE420 /* AddPatientViewController.swift in Sources */,
+				A4D8E23F1B92B319007EE420 /* UserObject.swift in Sources */,
+				A4D8E25E1B92BB8B007EE420 /* ClinicViewController.swift in Sources */,
+				A4D8E2541B92BB38007EE420 /* HomeViewController.swift in Sources */,
+				A4D8E2321B92B250007EE420 /* Sick.swift in Sources */,
+				A4D8E2741B92E0D0007EE420 /* SevenSwitch.swift in Sources */,
+				A4D8E20F1B92A9FF007EE420 /* MenuViewController.swift in Sources */,
+				A4D9E7661B93F29F00628AEA /* DrugStoreViewController.swift in Sources */,
+				A4DAAC0E1B93507000E2A077 /* MapViewController.swift in Sources */,
+				A4D8E2341B92B251007EE420 /* Sick_Vac.swift in Sources */,
+				A4D9E7621B93EA1A00628AEA /* SkyDanceAnnotationView.swift in Sources */,
+				A4D8E2671B92C231007EE420 /* DetailCell.swift in Sources */,
+				A4D8E21C1B92AEA0007EE420 /* NSDateExtension.swift in Sources */,
+				A4D8E22E1B92B250007EE420 /* Injection_Schedule.swift in Sources */,
+				A4D8E2231B92AEA0007EE420 /* UIViewExtension.swift in Sources */,
+				A4D8E20B1B92A9DB007EE420 /* BaseViewController.swift in Sources */,
+				A4D8E2201B92AEA0007EE420 /* UIImageExtension.swift in Sources */,
+				A4D8E27F1B93018E007EE420 /* SickAPI.swift in Sources */,
+				A4EE28F71B9BD14000972FF5 /* SwitchPatientViewController.swift in Sources */,
+				A4D8E21D1B92AEA0007EE420 /* StringExtension.swift in Sources */,
+				A4D8E27A1B92EE67007EE420 /* PatientCell.swift in Sources */,
+				A4D9E7691B93F3E500628AEA /* ClinicAPI.swift in Sources */,
+				A4D2F3EF1B9AAFE000CFBAD6 /* EditInjectionViewController.swift in Sources */,
+				A4D8E24B1B92B554007EE420 /* UserAPI.swift in Sources */,
+				A4D8E26B1B92C24D007EE420 /* InjectionScheduleCell.swift in Sources */,
+				A4D8E27D1B92FBD5007EE420 /* PatientAPI.swift in Sources */,
+				A4C80B8E1B95881000468808 /* TopScrollView.swift in Sources */,
+				A4D8E21E1B92AEA0007EE420 /* UIButtonExtension.swift in Sources */,
+				A4D8E21B1B92AEA0007EE420 /* ArrayExtension.swift in Sources */,
+				A4D8E2491B92B52F007EE420 /* Utilities.swift in Sources */,
+				A4D8E2421B92B347007EE420 /* AppConstant.swift in Sources */,
+				A4D2F3EB1B9AA88A00CFBAD6 /* EnbacAlertPopupContentView.swift in Sources */,
+				A4CAA2671B94DF4400E424AB /* SettingViewController.swift in Sources */,
+				A4D9E7601B93E84600628AEA /* SkyDanceAnnotation.swift in Sources */,
+				A4D8E21F1B92AEA0007EE420 /* UIColorExtension.swift in Sources */,
+				A4CAA2571B94C85A00E424AB /* VaccineSelectionViewController.swift in Sources */,
+				A4D8E2221B92AEA0007EE420 /* UITextViewExtension.swift in Sources */,
+				A4D8E1DC1B92A6C0007EE420 /* ViewController.swift in Sources */,
+				A4C80B881B95433E00468808 /* AlarmManager.swift in Sources */,
+				A4DAAC091B934E3B00E2A077 /* ClinicCell.swift in Sources */,
+				A4D8E22A1B92B24F007EE420 /* Patient.swift in Sources */,
+				A4D8E2281B92AFD8007EE420 /* SoYBa.xcdatamodeld in Sources */,
+				A4D8E2471B92B517007EE420 /* ModelManager.swift in Sources */,
+				A4D2F3EA1B9AA88A00CFBAD6 /* EnbacAlertPopup.swift in Sources */,
+				A4D8E2441B92B38B007EE420 /* DataManager.swift in Sources */,
+				A4D8E22C1B92B250007EE420 /* Patient_Sick.swift in Sources */,
+				A4CAA2621B94DCD000E424AB /* AppInfoViewController.swift in Sources */,
+				A4D2F3E91B9AA88A00CFBAD6 /* CustomPopupView.swift in Sources */,
+				A4D8E1DA1B92A6C0007EE420 /* AppDelegate.swift in Sources */,
+				A4D8E2361B92B251007EE420 /* Clinic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4D8E1DD1B92A6C0007EE420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D8E1DE1B92A6C0007EE420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D8E1E21B92A6C0007EE420 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D8E1E31B92A6C0007EE420 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4D8E1F11B92A6C0007EE420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nam Phong Nguyen (QMCW74E9AK)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c4db3486-9c81-43d9-8d08-47d144d4b5f7";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D8E1F21B92A6C0007EE420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nam Phong Nguyen (3SD7U8523L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nam Phong Nguyen (3SD7U8523L)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "970bb917-7585-4532-ac8c-c94bfd45fe0e";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D8E1F41B92A6C0007EE420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD66DA118B7D63B0A21E74CB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nam Phong Nguyen (QMCW74E9AK)";
+				INFOPLIST_FILE = SoYBa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SoYBa/SoYBa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D8E1F51B92A6C0007EE420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FE00C560783FCD85165225 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nam Phong Nguyen (3SD7U8523L)";
+				INFOPLIST_FILE = SoYBa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "970bb917-7585-4532-ac8c-c94bfd45fe0e";
+				SWIFT_OBJC_BRIDGING_HEADER = "SoYBa/SoYBa-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D8E1CF1B92A6C0007EE420 /* Build configuration list for PBXProject "SoYBa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D8E1F11B92A6C0007EE420 /* Debug */,
+				A4D8E1F21B92A6C0007EE420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D8E1F31B92A6C0007EE420 /* Build configuration list for PBXNativeTarget "SoYBa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D8E1F41B92A6C0007EE420 /* Debug */,
+				A4D8E1F51B92A6C0007EE420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4D8E2261B92AFD8007EE420 /* SoYBa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4D8E2271B92AFD8007EE420 /* SoYBa.xcdatamodel */,
+			);
+			currentVersion = A4D8E2271B92AFD8007EE420 /* SoYBa.xcdatamodel */;
+			path = SoYBa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4D8E1CC1B92A6C0007EE420 /* Project object */;
+}

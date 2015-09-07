@@ -1,0 +1,163 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.2.1):
+    - Bolts/AppLinks (= 1.2.1)
+    - Bolts/Tasks (= 1.2.1)
+  - Bolts/AppLinks (1.2.1):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.1)
+  - BSKeyboardControls (2.2)
+  - DATAFilter (0.8.4):
+    - DATAObjectIDs
+  - DATAObjectIDs (0.5.0)
+  - DATAStack (3.1.0):
+    - NSObject-HYPTesting (~> 1.2)
+  - DZNEmptyDataSet (1.7.1)
+  - FBSDKCoreKit (4.5.1):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.5.1)
+    - FBSDKCoreKit/no-arc (= 4.5.1)
+  - FBSDKCoreKit/arc (4.5.1):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.5.1):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.5.1):
+    - FBSDKCoreKit
+  - google-plus-ios-sdk (1.7.1)
+  - KxMenu (1)
+  - LGAlertView (1.0.1)
+  - LMDropdownView (1.0.2)
+  - MagicalRecord/Shorthand (2.2)
+  - MRProgress (0.8.2):
+    - MRProgress/ActivityIndicator (= 0.8.2)
+    - MRProgress/Blur (= 0.8.2)
+    - MRProgress/Circular (= 0.8.2)
+    - MRProgress/Icons (= 0.8.2)
+    - MRProgress/NavigationBarProgress (= 0.8.2)
+    - MRProgress/Overlay (= 0.8.2)
+  - MRProgress/ActivityIndicator (0.8.2):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.2):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.2):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.2)
+  - MRProgress/Icons (0.8.2)
+  - MRProgress/NavigationBarProgress (0.8.2):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.2):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.2)
+  - MRProgress/Stopable (0.8.2):
+    - MRProgress/Helper
+  - NSDictionary-ANDYSafeValue (0.3)
+  - NSEntityDescription-SYNCPrimaryKey (0.1.0):
+    - NSString-HYPNetworking
+  - NSHash (1.0.1)
+  - NSManagedObject-HYPPropertyMapper (3.1.0):
+    - NSString-HYPNetworking (~> 0.3.2)
+  - NSObject-HYPTesting (1.2)
+  - NSString-HYPNetworking (0.3.2)
+  - PKRevealController (2.0.6)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SevenSwitch (1.4.0)
+  - SHMultipleSelect (0.2.2)
+  - SingleLineInput (1.0.6)
+  - SWRevealViewController (2.3.0)
+  - SWTableViewCell (0.3.7)
+  - Sync (1.0.8):
+    - DATAFilter (~> 0.8.4)
+    - DATAStack (~> 3.1.0)
+    - NSDictionary-ANDYSafeValue (~> 0.3)
+    - NSEntityDescription-SYNCPrimaryKey (~> 0.1.0)
+    - NSManagedObject-HYPPropertyMapper (~> 3.1.0)
+  - Toast (2.4)
+  - YSLContainerViewController (0.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BSKeyboardControls
+  - DZNEmptyDataSet
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - google-plus-ios-sdk
+  - KxMenu
+  - LGAlertView
+  - LMDropdownView
+  - MagicalRecord/Shorthand
+  - MRProgress
+  - NSHash
+  - PKRevealController
+  - SDWebImage
+  - SevenSwitch
+  - SHMultipleSelect
+  - SingleLineInput
+  - SWRevealViewController
+  - SWTableViewCell
+  - Sync
+  - Toast
+  - YSLContainerViewController
+
+SPEC CHECKSUMS:
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  Bolts: 7686a5cb204d1ac54cee26f12d9b7622db3f80d1
+  BSKeyboardControls: b701935e789961102e3f20063bba7185800a2d3f
+  DATAFilter: 3f224f9ffde5c04de4748b65cc259c6481770edf
+  DATAObjectIDs: 472eae6d8d6b57109b973c837ec3dd5e78016ab6
+  DATAStack: 86cb614db684cf29d51fcc5de705e9d4b92cd90d
+  DZNEmptyDataSet: 2a398066c2bf5848f7f693fb50954b5064debd12
+  FBSDKCoreKit: f335eaf6865e1e1597dee1debfb533045500da47
+  FBSDKLoginKit: 225cc9a388a92916ee3f3bb14422017b6e44b65b
+  google-plus-ios-sdk: 47adbe03ea904bdb7aa1c0eca282a23c4686e1bc
+  KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
+  LGAlertView: 1dafa8bc05f33812d65e0b42ce824463e6c4acdc
+  LMDropdownView: 50188c9678eab3690153993d1824b7235d9b7edc
+  MagicalRecord: f8a56bb87ab6552f20c4bb8681a1958a197ea3cd
+  MRProgress: f4cfe862082418e8f542f077772283f425d6c699
+  NSDictionary-ANDYSafeValue: c15ff39a6b1b82a52ea277c64520c7b574715afc
+  NSEntityDescription-SYNCPrimaryKey: 72f1f0d30a7e8eb9d93277b1ce623cbaa6e47a38
+  NSHash: d0112ce250f5d2618ab452718c6882f5276e2d4f
+  NSManagedObject-HYPPropertyMapper: b559d85ecbe95dfa5c1e68330135dc7895e8ed6e
+  NSObject-HYPTesting: fadde70c75061b731b313c390e20777aed0a914d
+  NSString-HYPNetworking: f95766d4dc5693b45a0331ab8cf3a0b998f38cd7
+  PKRevealController: ffb45a16f5a5032ad90a3d16e5cbb0d8e035bd58
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SevenSwitch: e992e56e2e7f401eb00538b9fa92bf848bacbe27
+  SHMultipleSelect: 751491f4de21614622c198a760a88272cab62bf3
+  SingleLineInput: 7d0e32f13624fa49e35ea99fb8842618bba5d8ab
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  Sync: 00d22221fef4a906003a6e91bd9da7582971459d
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  YSLContainerViewController: f4ca045a6965333db46d8c793483b07abb3a0508
+
+COCOAPODS: 0.38.2
